@@ -1,7 +1,12 @@
+import ColorRenderer from "./colorModules/ColorRenderer";
 import "./App.css";
 
 function App() {
-  return <div className="App">REACT EXERCISE 3</div>;
+  return (
+    <div>
+      <ColorRenderer />
+    </div>
+  );
 }
 
 export default App;
