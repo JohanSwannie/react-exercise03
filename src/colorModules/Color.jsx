@@ -3,9 +3,11 @@ import React from "react";
 const Color = ({ hex, description }) => {
   const changeColor1 = () => {
     document.getElementById(`${description}`).style.color = "black";
+    document.body.style.backgroundColor = "gray";
   };
   const changeColor2 = () => {
     document.getElementById(`${description}`).style.color = "white";
+    document.body.style.backgroundColor = "black";
   };
   return (
     <div
