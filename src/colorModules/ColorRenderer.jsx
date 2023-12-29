@@ -25,6 +25,54 @@ const colors = [
     hex: "#800000",
     description: "Maroon",
   },
+  {
+    hex: "#B8860B",
+    description: "DarkGoldenRod",
+  },
+  {
+    hex: "#9932CC",
+    description: "DarkOrchid",
+  },
+  {
+    hex: "#8FBC8F",
+    description: "DarkSeaGreen",
+  },
+  {
+    hex: "#FF1493",
+    description: "DeepPink",
+  },
+  {
+    hex: "	#00BFFF",
+    description: "DeepSkyBlue",
+  },
+  {
+    hex: "#7CFC00",
+    description: "LawnGreen",
+  },
+  {
+    hex: "#FF00FF",
+    description: "Magenta",
+  },
+  {
+    hex: "#FFA500",
+    description: "Orange",
+  },
+  {
+    hex: "#6A5ACD",
+    description: "StateBlue",
+  },
+  {
+    hex: "#EE82EE",
+    description: "Violet",
+  },
+  {
+    hex: "#FFFF00",
+    description: "Yellow",
+  },
+  {
+    hex: "#D2B48C",
+    description: "Tan",
+  },
 ];
 
 export default function ColorRenderer() {
