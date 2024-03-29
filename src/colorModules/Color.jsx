@@ -1,5 +1,3 @@
-import React from "react";
-
 const Color = ({ hex, description }) => {
   const changeColor1 = () => {
     document.getElementById(`${description}`).style.color = "black";
@@ -21,4 +19,3 @@ const Color = ({ hex, description }) => {
 };
 
 export default Color;
-
