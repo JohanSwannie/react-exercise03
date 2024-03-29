@@ -21,3 +21,4 @@ const Color = ({ hex, description }) => {
 };
 
 export default Color;
+
